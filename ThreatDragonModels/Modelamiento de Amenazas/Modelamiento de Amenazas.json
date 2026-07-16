@@ -639,53 +639,6 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "03b56a6d-3daa-4614-ba8e-cc562d87f60c",
-            "source": {
-              "x": 790,
-              "y": 160
-            },
-            "target": {
-              "x": 883,
-              "y": 250
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
             "id": "a05961dd-52b7-4b6c-b96a-94fe2a4bb085",
             "source": {
               "cell": "93448e8e-fccf-4ffe-bc8d-2a46f4f4c529",
