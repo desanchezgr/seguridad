@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "6e667033-2fd8-4544-af7a-0e35369a0aa4",
             "zIndex": -1,
+            "id": "6e667033-2fd8-4544-af7a-0e35369a0aa4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -63,6 +63,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -146,7 +147,6 @@
               ]
             },
             "id": "93448e8e-fccf-4ffe-bc8d-2a46f4f4c529",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -198,6 +198,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -281,7 +282,6 @@
               ]
             },
             "id": "1c550f18-e87d-4734-b37f-287a557ef5c1",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Servidor front-end web",
@@ -340,6 +340,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -423,7 +424,6 @@
               ]
             },
             "id": "1420f5a5-7d5c-4258-8a0e-a9d4730c0900",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Servidor API back-end interno",
@@ -482,6 +482,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -565,7 +566,6 @@
               ]
             },
             "id": "9b1f4890-6369-41f7-9ea0-6db7086ec324",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Base de Datos PostgreSQL",
